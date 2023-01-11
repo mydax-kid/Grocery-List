@@ -27,7 +27,7 @@ function App() {
       setEdit(false);
       setValue(''); 
     }
-    else {
+    else if (value) {
       setList([...list, value]);
       setValue('');
       setAdded(true);
